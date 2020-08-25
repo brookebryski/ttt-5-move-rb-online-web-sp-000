@@ -11,5 +11,5 @@ puts "Welcome to Tic Tac Toe!"
  input = gets.strip
 
 input_to_index = index
-board(index)("X")
+board(index,"X")
 display_board(board)
